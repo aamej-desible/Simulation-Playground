@@ -4,7 +4,7 @@
 Build a "Simulation Playground" that enables teams to test bot/prompt versions against realistic simulated customers. This playground will replace manual evaluation loops with a repeatable evaluation flow that measures quality automatically and compares versions before shipping.
 
 ## Current Architecture Plan
-- **Backend**: Provide a new namespace Router('/api/simulator') alongside existing backend models and schemas to serve the simulator, accessing existing MongoDB collections.
+- **Backend**: Provide a new namespace `Router('/api/simulator')` alongside existing backend models and schemas to serve the simulator, accessing existing MongoDB collections.
 - **Frontend**: A standalone React/Vite dashboard specifically tailored for developers/QA to run benchmarks, visualize simulations, and review scoring without cluttering the main dashboard.
 - **Core Components**: 
   - *Simulation Orchestrator*: Loops the Bot Actor and Human Actor until termination conditions are met.
@@ -12,19 +12,19 @@ Build a "Simulation Playground" that enables teams to test bot/prompt versions a
   - *Observability*: Langfuse to trace simulations, track tokens, latency, and evaluate prompts.
 
 ## Current Progress & Seeded Files
-We have initialized this repository as a clean slate for the Simulation Playground. To jump-start the feature while keeping it loosely coupled, we brought over the following critical context files from the main Conversation Intelligence project:
+We have initialized this repository as a clean slate for the Simulation Playground. To jump-start the feature while keeping it loosely coupled, we brought over the following critical context files from the main `Conversation Intelligence` project:
 
 **Refined Data Context (backend/data/)**
-- efined_call_cluster_map.json
-- efined_call_profiles.json
-- efined_calls_labeled.json
-- efined_cluster_summary.json
-- efined_patterns_intermediate.json
-- call_analytics_with_clusters.csv
+- `refined_call_cluster_map.json`
+- `refined_call_profiles.json`
+- `refined_calls_labeled.json`
+- `refined_cluster_summary.json`
+- `refined_patterns_intermediate.json`
+- `call_analytics_with_clusters.csv`
 
 **Shared Backend Logic & Schemas (backend/app/)**
-- DB connection handlers and initialization schemas (database.py, db.py, schemas.py etc.)
+- DB connection handlers and initialization schemas (`database.py`, `db.py`, `schemas.py` etc.)
 
 **Frontend Foundation (frontend/)**
-- Package configurations (package.json)
-- Reusable UI layout elements (Header.tsx, Sidebar.tsx, FileUpload.tsx)
+- Package configurations (`package.json`)
+- Reusable UI layout elements (`Header.tsx`, `Sidebar.tsx`, `FileUpload.tsx`)
