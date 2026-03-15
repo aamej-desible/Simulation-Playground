@@ -1,0 +1,421 @@
+[
+  {
+    "pattern_name": "Immediate Rejection - No Interest",
+    "description": "The customer immediately rejects the offer after a brief greeting, stating they are not interested. These calls are typically very short and end quickly with no further engagement.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Call terminated due to customer's immediate disinterest.",
+    "improvement_opportunity": "This pattern is difficult to overcome; explore A/B testing different introductory offers or qualifying lead data more effectively to reduce incidence.",
+    "estimated_frequency": "35%"
+  },
+  {
+    "pattern_name": "Already Insured - Quick Decline",
+    "description": "The customer states they already have health insurance, often leading to a quick decline. There is minimal attempt to explore porting or additional coverage options.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Already Insured",
+      "Not Interested"
+    ],
+    "typical_outcome": "Call terminated with the customer stating they are already insured.",
+    "improvement_opportunity": "Develop a strong 'porting' pitch focusing on superior benefits, specific savings, or filling coverage gaps to overcome initial resistance.",
+    "estimated_frequency": "15%"
+  },
+  {
+    "pattern_name": "Time Constraint - Callback Requested",
+    "description": "The customer expresses a time constraint and requests a callback. This pattern represents a potential opportunity if the callback is effectively managed.",
+    "typical_engagement": "MEDIUM",
+    "typical_objections": [
+      "Time Constraint"
+    ],
+    "typical_outcome": "Callback scheduled, with an uncertain outcome pending the follow-up call.",
+    "improvement_opportunity": "Optimize callback scheduling processes and equip agents with information on how to quickly re-engage and provide value during the callback.",
+    "estimated_frequency": "10%"
+  },
+  {
+    "pattern_name": "Price Sensitivity - Rejection",
+    "description": "The customer expresses concern about the price of the insurance, leading to rejection. The agent may attempt to address the concern, but often fails.",
+    "typical_engagement": "MEDIUM",
+    "typical_objections": [
+      "Price Concern",
+      "Not Interested"
+    ],
+    "typical_outcome": "Rejection due to perceived high cost or lack of affordability.",
+    "improvement_opportunity": "Offer flexible payment options or tierd-down coverage. Improve needs analysis to customize offers to their budget.",
+    "estimated_frequency": "8%"
+  },
+  {
+    "pattern_name": "Wrong Number/Unavailable",
+    "description": "The agent reaches someone other than the intended recipient or finds the recipient unavailable. A message is usually requested.",
+    "typical_engagement": "LOW",
+    "typical_objections": [],
+    "typical_outcome": "Request to leave a message or indication of unavailability.",
+    "improvement_opportunity": "Improve data validation and lead qualification processes to minimize instances of reaching the wrong person.",
+    "estimated_frequency": "10%"
+  },
+  {
+    "pattern_name": "Initial Interest - Sudden Rejection",
+    "description": "The customer shows initial interest but then abruptly rejects the offer, often without a clear explanation. There may be initial agreement followed by immediate disinterest.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Sudden rejection after initial engagement, resulting in an unqualified lead.",
+    "improvement_opportunity": "Identify the triggers that cause the abrupt rejection and train agents to address these concerns proactively. Improve the initial offer to be more compelling.",
+    "estimated_frequency": "5%"
+  },
+  {
+    "pattern_name": "Qualified Lead - Requires Callback",
+    "description": "Customer expresses interest after some initial probing and is open to a callback. This usually involves some profiling and sharing of family information.",
+    "typical_engagement": "HIGH",
+    "typical_objections": [
+      "Time Constraint",
+      "Already Insured"
+    ],
+    "typical_outcome": "Customer agrees to a callback, and profiling starts or is completed. High probability of conversion.",
+    "improvement_opportunity": "Ensure prompt and well-prepared callbacks with a clear agenda and tailored solutions.",
+    "estimated_frequency": "5%"
+  },
+  {
+    "pattern_name": "Gatekeeper - Third Party Contact",
+    "description": "The agent interacts with a third party (family member, gatekeeper) who may or may not pass on the message. The outcome is highly uncertain.",
+    "typical_engagement": "LOW",
+    "typical_objections": [],
+    "typical_outcome": "Message taken, but uncertain if the intended recipient will respond.",
+    "improvement_opportunity": "Develop strategies for engaging with gatekeepers to increase the likelihood of reaching the intended recipient.  Politely ask when best to call back to speak to the correct person.",
+    "estimated_frequency": "7%"
+  },
+  {
+    "pattern_name": "Doctor - Already Insured",
+    "description": "The customer states that they are a doctor, indicating a knowledge of healthcare and often a pre-existing health plan, or an assumption of good health.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Already Insured"
+    ],
+    "typical_outcome": "Rejection of the offer due to existing healthcare knowledge or coverage.",
+    "improvement_opportunity": "Highlight niche benefits such as specialized coverage for specific ailments or preventative care options.",
+    "estimated_frequency": "1%"
+  },
+  {
+    "pattern_name": "Immediate Rejection",
+    "description": "Customer rejects the offer within the first few seconds of the call, often with 'Not Interested.'  There is minimal to no engagement and the call ends quickly.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Call terminated due to immediate rejection.",
+    "improvement_opportunity": "Difficult to improve conversion. Pre-call lead qualification or offer customization based on known demographics might help reduce these calls.",
+    "estimated_frequency": "35%"
+  },
+  {
+    "pattern_name": "Time Constraint Callback Request",
+    "description": "The customer states they are busy or have a time constraint and requests a callback. The initial engagement is usually neutral and the potential for future engagement depends on follow-up.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Time Constraint"
+    ],
+    "typical_outcome": "Callback scheduled or promised.",
+    "improvement_opportunity": "Implement a robust callback system with reminders and pre-call research to maximize conversion on follow-up.",
+    "estimated_frequency": "15%"
+  },
+  {
+    "pattern_name": "Already Insured Rejection",
+    "description": "Customer states they already have health insurance, often leading to a quick rejection of the offer. Attempts at upselling or highlighting policy benefits may be unsuccessful.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Already Insured"
+    ],
+    "typical_outcome": "Call terminated due to existing insurance coverage.",
+    "improvement_opportunity": "Better pre-call data or more persuasive porting offers, highlight unique benefits not found in typical plans.",
+    "estimated_frequency": "20%"
+  },
+  {
+    "pattern_name": "Initial Interest, then Rejection",
+    "description": "The customer shows some initial interest or asks a few questions, but ultimately rejects the offer, sometimes after the bot presents policy disclaimers.",
+    "typical_engagement": "MEDIUM",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Rejection after initial engagement.",
+    "improvement_opportunity": "Improve the clarity and persuasiveness of the offer presentation. Address potential concerns or disclaimers more proactively and positively.",
+    "estimated_frequency": "10%"
+  },
+  {
+    "pattern_name": "Sustained Engagement, Qualified Lead",
+    "description": "Customer engages in a meaningful conversation, provides information, and expresses genuine interest in the offer.  A callback is often scheduled and the customer is classified as a qualified lead.",
+    "typical_engagement": "HIGH",
+    "typical_objections": [],
+    "typical_outcome": "Callback scheduled, potential sale.",
+    "improvement_opportunity": "Ensure seamless handover to sales team, detailed notes on customer needs and preferences to personalize the follow-up.",
+    "estimated_frequency": "5%"
+  },
+  {
+    "pattern_name": "Profiling Started, Uncertain Outcome",
+    "description": "The customer starts answering profiling questions, indicating some level of interest, but the call ends prematurely (e.g., disconnection) or the outcome remains uncertain due to various objections.",
+    "typical_engagement": "MEDIUM",
+    "typical_objections": [
+      "Time Constraint",
+      "Price Concern",
+      "Already Insured"
+    ],
+    "typical_outcome": "Uncertain, needs follow-up.",
+    "improvement_opportunity": "Improve call stability and minimize drop-off rate. Implement strategies to address common objections during profiling.",
+    "estimated_frequency": "5%"
+  },
+  {
+    "pattern_name": "Spouse/Third Party Rejection",
+    "description": "The agent speaks with someone other than the intended customer (e.g., spouse), who expresses no interest in the offer. The decision-maker is unavailable.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Call terminated due to lack of decision-maker.",
+    "improvement_opportunity": "Improve pre-call data to identify the correct contact person. Train agents to handle gatekeepers effectively or request a callback when the intended customer is available.",
+    "estimated_frequency": "2%"
+  },
+  {
+    "pattern_name": "Language Barrier Obstruction",
+    "description": "A significant language barrier exists, hindering effective communication and ultimately leading to rejection or disengagement.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested",
+      "Language Barrier"
+    ],
+    "typical_outcome": "Call terminated due to communication difficulties.",
+    "improvement_opportunity": "Employ multilingual agents or implement real-time translation tools to bridge the communication gap.",
+    "estimated_frequency": "3%"
+  },
+  {
+    "pattern_name": "Discount Offered, Quick Rejection",
+    "description": "A discount or free health checkup is immediately offered, but the customer still rejects the offer with minimal engagement.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Immediate rejection despite the incentive.",
+    "improvement_opportunity": "Rethink the immediate discount strategy. Focus on needs-based selling and building value before offering discounts.",
+    "estimated_frequency": "3%"
+  },
+  {
+    "pattern_name": "WhatsApp Information Request",
+    "description": "Customer is interested, but requests information to be sent over WhatsApp or text message due to time constraints.",
+    "typical_engagement": "MEDIUM",
+    "typical_objections": [
+      "Time Constraint"
+    ],
+    "typical_outcome": "Information sent via WhatsApp/text, potential follow up needed.",
+    "improvement_opportunity": "Set expectations on how to handle WhatsApp/Text follow-ups to make sure they are effective in converting leads.",
+    "estimated_frequency": "2%"
+  },
+  {
+    "pattern_name": "Immediate Rejection - No Interest",
+    "description": "The agent presents the offer, and the customer immediately rejects it, often stating they are not interested. These calls are characterized by minimal engagement and a quick termination.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Customer expresses no interest and the call ends abruptly.",
+    "improvement_opportunity": "Explore alternative opening strategies or lead qualification processes to filter out uninterested contacts. Focus on brevity and impactful value proposition in the initial seconds.",
+    "estimated_frequency": "40%"
+  },
+  {
+    "pattern_name": "Time Constraint - Callback Request",
+    "description": "The customer states they are busy and requests a callback. While the customer isn't immediately rejecting the offer, they're also not actively engaging, simply delaying the conversation.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Time Constraint"
+    ],
+    "typical_outcome": "A callback is scheduled, but the likelihood of converting after the callback is uncertain.",
+    "improvement_opportunity": "Develop a concise, compelling summary to deliver even within the time constraint. Also improve follow-up process with tailored information and reminder systems.",
+    "estimated_frequency": "15%"
+  },
+  {
+    "pattern_name": "Already Insured - Rejection",
+    "description": "The customer states they already have health insurance, often leading to a quick rejection. Attempts to upsell or discuss other benefits are usually unsuccessful.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Already Insured"
+    ],
+    "typical_outcome": "Customer declines the offer, citing existing insurance coverage.",
+    "improvement_opportunity": "Focus on identifying potential gaps in their existing coverage or highlight unique benefits. Gather information about the customer's current policy to create a customized pitch",
+    "estimated_frequency": "10%"
+  },
+  {
+    "pattern_name": "Initial Interest - Scheduled Callback",
+    "description": "The customer shows initial interest and engages with the agent to some degree. A callback is scheduled to further discuss the offer.",
+    "typical_engagement": "MEDIUM",
+    "typical_objections": [],
+    "typical_outcome": "Callback scheduled, indicating a potentially qualified lead.",
+    "improvement_opportunity": "Ensure agents gather comprehensive information about the customer's needs before the callback. Prepare a personalized presentation based on the initial conversation.",
+    "estimated_frequency": "10%"
+  },
+  {
+    "pattern_name": "Price Sensitive - Discount Focus",
+    "description": "Customer is primarily driven by discounts and may still reject paid plan. This can sometimes lead to the customer requesting only free services.",
+    "typical_engagement": "MEDIUM",
+    "typical_objections": [
+      "Price Concern"
+    ],
+    "typical_outcome": "Customer refuses paid plan. Possible interest in free service only",
+    "improvement_opportunity": "Highlight additional benefits beyond price and focus on demonstrating long-term value. Offer alternative payment plans to address immediate cost concerns.",
+    "estimated_frequency": "5%"
+  },
+  {
+    "pattern_name": "Interest - Profiling - Callback",
+    "description": "Customers show early interest and engage in profiling questions. A callback is scheduled.",
+    "typical_engagement": "HIGH",
+    "typical_objections": [],
+    "typical_outcome": "Callback scheduled after the customer expresses genuine interest and participates in profiling.",
+    "improvement_opportunity": "Ensure seamless transfer of information collected during profiling to the agent handling the callback. Personalize the offer based on the collected profile to maximize conversion.",
+    "estimated_frequency": "5%"
+  },
+  {
+    "pattern_name": "Angry Rejection - DNC Request",
+    "description": "Agent encounters a customer who becomes angry and requests to be put on the Do-Not-Call list. Negative experience for both parties.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Call ends abruptly, customer demands no further contact.",
+    "improvement_opportunity": "Improve lead filtering to avoid contacting individuals with a history of negative interactions. Empower agents to de-escalate situations and offer apologies when appropriate.",
+    "estimated_frequency": "2%"
+  },
+  {
+    "pattern_name": "Qualified - Family Details - Callback",
+    "description": "Strong interest shown. Customer provides family details. Callback is scheduled with expert.",
+    "typical_engagement": "VERY_HIGH",
+    "typical_objections": [],
+    "typical_outcome": "Callback scheduled with an expert due to customer's strong interest and provided family details.",
+    "improvement_opportunity": "Prepare detailed comparative quotes for the callback agent. Also, make sure that the expert is well informed about the prospect's family details.",
+    "estimated_frequency": "3%"
+  },
+  {
+    "pattern_name": "Confusion - Unclear Outcome",
+    "description": "The customer expresses confusion about the offer. The call ends without a clear resolution.",
+    "typical_engagement": "MEDIUM",
+    "typical_objections": [],
+    "typical_outcome": "Uncertain outcome due to customer's confusion and abrupt call termination.",
+    "improvement_opportunity": "Simplify the language and present the benefits more clearly. Ensure the agent pauses and asks for confirmation of understanding regularly.",
+    "estimated_frequency": "2%"
+  },
+  {
+    "pattern_name": "Immediate Rejection",
+    "description": "The customer immediately rejects the offer, often within the first few seconds of the call. There is little to no engagement, and the customer expresses a clear lack of interest.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Call terminates quickly with no sale.",
+    "improvement_opportunity": "Pre-call lead qualification and targeted messaging may help reduce these immediate rejections. Verify contact info.",
+    "estimated_frequency": "27%"
+  },
+  {
+    "pattern_name": "Already Insured Rejection",
+    "description": "Customers decline the offer because they already have existing health insurance, often with a competitor. There's little interest in switching plans.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Already Insured"
+    ],
+    "typical_outcome": "Call ends with the customer stating they are satisfied with their current insurance.",
+    "improvement_opportunity": "Focus on the benefits of switching or porting, address potential gaps in their current coverage, and offer a comparative analysis.",
+    "estimated_frequency": "12%"
+  },
+  {
+    "pattern_name": "Time Constraint Rejection",
+    "description": "The customer expresses interest but claims to be too busy to talk at the moment.  A callback may or may not be scheduled.",
+    "typical_engagement": "MEDIUM",
+    "typical_objections": [
+      "Time Constraint"
+    ],
+    "typical_outcome": "The call ends with a potential callback scheduled, or simply terminates.",
+    "improvement_opportunity": "Offer to schedule a brief, specific callback at a convenient time. Quickly highlight a key benefit to pique their interest before they fully disengage.",
+    "estimated_frequency": "9%"
+  },
+  {
+    "pattern_name": "Initial Interest Fading",
+    "description": "The customer initially shows some level of interest, but this interest quickly fades, leading to a rejection of the offer. This can be due to confusion or lack of perceived value.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Call ends with customer declining the offer.",
+    "improvement_opportunity": "Improve clarity of offer, focus on key benefits, and address potential concerns proactively. Shorten the pitch and tailor it to their needs.",
+    "estimated_frequency": "6%"
+  },
+  {
+    "pattern_name": "Profiling Lead",
+    "description": "The customer engages in profiling questions, showing genuine interest in the offer. This suggests a qualified lead with potential for conversion.",
+    "typical_engagement": "HIGH",
+    "typical_objections": [],
+    "typical_outcome": "Call progresses to gathering family details or scheduling a callback.",
+    "improvement_opportunity": "Maintain high engagement, address any concerns promptly, and clearly outline next steps.  Focus on building trust and rapport.",
+    "estimated_frequency": "9%"
+  },
+  {
+    "pattern_name": "Confusion Rejection",
+    "description": "The customer expresses confusion about the offer, leading to rejection. This indicates a need for a simpler and clearer explanation of benefits.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Call ends with the customer declining the offer due to lack of understanding.",
+    "improvement_opportunity": "Simplify the offer, use clear and concise language, and address potential points of confusion proactively. Provide visuals or analogies to aid understanding.",
+    "estimated_frequency": "6%"
+  },
+  {
+    "pattern_name": "Polite Rejection",
+    "description": "The customer politely declines the offer, often using phrases like 'no, thank you'. While the rejection is firm, it's delivered respectfully.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested"
+    ],
+    "typical_outcome": "Call terminates quickly after the polite rejection.",
+    "improvement_opportunity": "Acknowledge their politeness and end the call gracefully.  Consider a follow-up email with additional information.",
+    "estimated_frequency": "3%"
+  },
+  {
+    "pattern_name": "Price Sensitive Rejection",
+    "description": "The primary reason for rejection is price concern. Customer voices anxiety/discomfort regarding costs.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Price Concern"
+    ],
+    "typical_outcome": "The call usually ends with the customer declining the offer due to the high price.",
+    "improvement_opportunity": "Present payment plan options and emphasize long-term benefits vs current costs. Tailor plan offerings according to price sensitivity of client.",
+    "estimated_frequency": "3%"
+  },
+  {
+    "pattern_name": "Language Barrier Rejection",
+    "description": "Communication is hampered by a language barrier, leading to disinterest and rejection of the offer.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Language Barrier",
+      "Not Interested"
+    ],
+    "typical_outcome": "Call ends with the customer expressing a lack of understanding and disinterest.",
+    "improvement_opportunity": "Provide multi-lingual support, scripts, or agents to better serve diverse customer populations. If possible, identify language preference beforehand.",
+    "estimated_frequency": "6%"
+  },
+  {
+    "pattern_name": "Frustration & DNC Request",
+    "description": "Customer shows frustration, often triggered by frequent calls, and asks to be removed from the call list.",
+    "typical_engagement": "LOW",
+    "typical_objections": [
+      "Not Interested",
+      "Time Constraint"
+    ],
+    "typical_outcome": "Customer requests 'Do Not Call' and expresses negative feelings.",
+    "improvement_opportunity": "Immediately honor the DNC request. Implement better call list management and reduce call frequency to avoid annoyance.",
+    "estimated_frequency": "3%"
+  },
+  {
+    "pattern_name": "Uncertain Availability",
+    "description": "A very short call where the customer indicates they might check for availability, resulting in an uncertain outcome.",
+    "typical_engagement": "UNCERTAIN",
+    "typical_objections": [],
+    "typical_outcome": "The call ends prematurely with a promise to check availability, resulting in an unresolved outcome.",
+    "improvement_opportunity": "Follow up at a specified time, send a reminder, or immediately offer to help check availability.",
+    "estimated_frequency": "3%"
+  }
+]

@@ -1,0 +1,808 @@
+[
+  {
+    "cluster_id": 100,
+    "label": "Immediate Rejection - No Interest",
+    "description": "The customer immediately rejects the offer with 'Not Interested' within the first few seconds, displaying no engagement. These calls end quickly with no further dialogue. May represent bad data or an inconvenient time for the contact.",
+    "keywords": [
+      "Immediate Rejection",
+      "Not Interested",
+      "Quick Decline",
+      "Zero Engagement",
+      "Cold Call",
+      "Abrupt End"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Not Interested",
+    "typical_outcome_reason": "Lack of Interest",
+    "improvement_opportunity": "Refine lead qualification criteria. A/B test different introductory scripts focusing on immediate value or relevancy. Verify contact information is accurate.",
+    "dominant_emotion": "Apathetic",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: Not Interested",
+    "call_count": 108,
+    "lead_rate": 0.0,
+    "avg_turns": 7.2,
+    "avg_call_score": 0.189,
+    "avg_duration_s": 45,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 108
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 108
+    },
+    "sample_texts": [
+      "हां बोलिए.",
+      "बोले?",
+      "Hello.",
+      "जी बोलिए."
+    ]
+  },
+  {
+    "cluster_id": 102,
+    "label": "Already Insured - Quick Rejection",
+    "description": "Customer immediately states they are already insured. Very little attempt is made to explore alternative solutions. The call ends quickly.",
+    "keywords": [
+      "Already Insured",
+      "Existing Coverage",
+      "Quick Decline",
+      "No Upsell",
+      "Insurance Coverage"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Already Insured",
+    "typical_outcome_reason": "Existing Insurance Coverage",
+    "improvement_opportunity": "Train agents to quickly identify potential gaps in their existing coverage or highlight unique benefits (e.g., specific disease coverage, better preventative care) to initiate a porting discussion. Gather competitor policy names for focused comparisons.",
+    "dominant_emotion": "Neutral",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: Already Insured",
+    "call_count": 48,
+    "lead_rate": 0.0,
+    "avg_turns": 14.4,
+    "avg_call_score": 0.233,
+    "avg_duration_s": 89,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 46,
+      "CONNECTED_ENGAGED": 2
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 48
+    },
+    "sample_texts": [
+      "हां.",
+      "Hello.",
+      "Yes.",
+      "Hello.",
+      "Yes madam."
+    ]
+  },
+  {
+    "cluster_id": 107,
+    "label": "Qualified Lead - Callback Scheduled",
+    "description": "Customer expresses genuine interest, asks questions, and engages in a meaningful conversation. A callback is scheduled, indicating a potentially high-value lead. Initial profiling questions are answered.",
+    "keywords": [
+      "Qualified Lead",
+      "High Interest",
+      "Callback Scheduled",
+      "Meaningful Conversation",
+      "Profiling",
+      "Potential Sale"
+    ],
+    "typical_disposition": "Callback",
+    "typical_sub_disposition": "Scheduled Callback",
+    "typical_outcome_reason": "High Interest",
+    "improvement_opportunity": "Ensure seamless handoff to the callback team with detailed notes on customer needs, preferences, and any objections raised. Personalize the follow-up presentation to maximize conversion.",
+    "dominant_emotion": "Interested",
+    "sample_profile_match": "Engagement: HIGH, Arc Pattern: Rising, Objection: None",
+    "call_count": 32,
+    "lead_rate": 0.938,
+    "avg_turns": 23.1,
+    "avg_call_score": 0.68,
+    "avg_duration_s": 144,
+    "disposition_distribution": {
+      "CONNECTED_ENGAGED": 24,
+      "CALL_LATER": 7,
+      "NOT_INTERESTED": 1
+    },
+    "outcome_distribution": {
+      "QUALIFIED_LEAD": 30,
+      "UNCERTAIN": 1,
+      "NOT_QUALIFIED": 1
+    },
+    "sample_texts": [
+      "हां जी बोलिए.",
+      "जी.",
+      "Hello."
+    ]
+  },
+  {
+    "cluster_id": 104,
+    "label": "Time Constraint - Callback Requested",
+    "description": "Customer expresses a time constraint early in the call and requests a callback at a more convenient time. The initial engagement is minimal.",
+    "keywords": [
+      "Time Constraint",
+      "Busy",
+      "Callback Requested",
+      "Later",
+      "Schedule Callback",
+      "Follow-up"
+    ],
+    "typical_disposition": "Callback",
+    "typical_sub_disposition": "Scheduled Callback",
+    "typical_outcome_reason": "Customer Time Constraint",
+    "improvement_opportunity": "Optimize callback scheduling processes (consider automated scheduling tools). Provide agents with scripts to gather minimal but essential information during the initial call to personalize the callback and improve conversion rates.",
+    "dominant_emotion": "Neutral",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Slight Rise, Objection: Time Constraint",
+    "call_count": 29,
+    "lead_rate": 0.069,
+    "avg_turns": 7.8,
+    "avg_call_score": 0.478,
+    "avg_duration_s": 47,
+    "disposition_distribution": {
+      "CALL_LATER": 29
+    },
+    "outcome_distribution": {
+      "UNCERTAIN": 19,
+      "QUALIFIED_LEAD": 2,
+      "NOT_QUALIFIED": 8
+    },
+    "sample_texts": [
+      "Hello? Hello. कभी क्यों हो? अभी नहीं हो सकता है. ज",
+      "Yes ma'am.",
+      "Hello.",
+      "मैं अभी मैं अभी मंदिर में बैठा हूं. थोड़ी देर के ब"
+    ]
+  },
+  {
+    "cluster_id": 112,
+    "label": "Discount Offered - Immediate Rejection",
+    "description": "A discount or incentive is immediately offered, but the customer rejects the offer anyway with minimal engagement. The discount does not overcome their initial disinterest.",
+    "keywords": [
+      "Discount",
+      "Incentive",
+      "Immediate Rejection",
+      "No Interest",
+      "Unaffected by Discount",
+      "Price Insensitive"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Not Interested",
+    "typical_outcome_reason": "Lack of Interest",
+    "improvement_opportunity": "Rethink the immediate discount strategy. Focus on needs-based selling and building value before offering discounts. Tailor the offer based on perceived needs instead of a generic discount.",
+    "dominant_emotion": "Apathetic",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: Not Interested",
+    "call_count": 14,
+    "lead_rate": 0.0,
+    "avg_turns": 5.9,
+    "avg_call_score": 0.225,
+    "avg_duration_s": 34,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 13,
+      "CONNECTED_ENGAGED": 1
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 14
+    },
+    "sample_texts": [
+      "हां जी.",
+      "Hello.",
+      "Hello.",
+      "हां बताइए madam बताइए जल्दी."
+    ]
+  },
+  {
+    "cluster_id": 108,
+    "label": "Profiling Started - Uncertain End",
+    "description": "The customer begins answering profiling questions, showing initial interest, but the call ends prematurely due to technical issues, customer distraction, or other interruptions. The outcome is uncertain.",
+    "keywords": [
+      "Profiling Started",
+      "Interrupted Call",
+      "Uncertain Outcome",
+      "Premature End",
+      "Technical Issue",
+      "Needs Follow-up"
+    ],
+    "typical_disposition": "Follow-up",
+    "typical_sub_disposition": "Unresolved",
+    "typical_outcome_reason": "Interruption/Disconnection",
+    "improvement_opportunity": "Improve call stability and minimize drop-off rates. Train agents to quickly re-engage if a disconnection occurs. Implement a system for immediate follow-up on interrupted calls.",
+    "dominant_emotion": "Uncertain",
+    "sample_profile_match": "Engagement: MEDIUM, Arc Pattern: Rising, Objection: Varies",
+    "call_count": 13,
+    "lead_rate": 0.308,
+    "avg_turns": 13.4,
+    "avg_call_score": 0.692,
+    "avg_duration_s": 85,
+    "disposition_distribution": {
+      "CONNECTED_ENGAGED": 13
+    },
+    "outcome_distribution": {
+      "UNCERTAIN": 9,
+      "QUALIFIED_LEAD": 4
+    },
+    "sample_texts": [
+      "Hello. This call is now being recorded.",
+      "नमस्ते, मेरी किस्मत क्या है? हां जी, हां जी, बोल र",
+      "Hello.",
+      "जी बोलिए.",
+      "Hello."
+    ]
+  },
+  {
+    "cluster_id": 109,
+    "label": "Gatekeeper - Uncertain Reach",
+    "description": "Agent speaks with a third party (e.g., family member) who acts as a gatekeeper. The gatekeeper may or may not pass on the message to the intended recipient, leading to an uncertain outcome. The decision-maker is unavailable.",
+    "keywords": [
+      "Gatekeeper",
+      "Third Party",
+      "Unavailable",
+      "Message Left",
+      "Uncertain Reach",
+      "Family Member"
+    ],
+    "typical_disposition": "Follow-up",
+    "typical_sub_disposition": "Message Left",
+    "typical_outcome_reason": "Unavailable Decision-Maker",
+    "improvement_opportunity": "Develop strategies for engaging with gatekeepers effectively. Train agents to politely ask for the best time to call back and speak directly with the intended recipient.",
+    "dominant_emotion": "Neutral",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: None",
+    "call_count": 13,
+    "lead_rate": 0.0,
+    "avg_turns": 6.6,
+    "avg_call_score": 0.435,
+    "avg_duration_s": 39,
+    "disposition_distribution": {
+      "CALL_LATER": 13
+    },
+    "outcome_distribution": {
+      "UNCERTAIN": 6,
+      "NOT_QUALIFIED": 7
+    },
+    "sample_texts": [
+      "Hello.",
+      "नहीं, अभी निखिल जी घर पर नहीं है.",
+      "नहीं नहीं, अभी हमीद घर पर नहीं आए.",
+      "If you record your name and reason for calling, I'",
+      "Thanks, Karf. Please stay on the line."
+    ]
+  },
+  {
+    "cluster_id": 105,
+    "label": "Time Constraint - No Callback",
+    "description": "The customer states they are busy, implying rejection. They do not request a callback or schedule any follow-up activities. The conversation is short and ends without a clear opportunity for further engagement.",
+    "keywords": [
+      "Time Constraint",
+      "Busy",
+      "Rejection Implied",
+      "No Callback",
+      "Unscheduled"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Time Constraint",
+    "typical_outcome_reason": "Customer Time Constraint",
+    "improvement_opportunity": "Agents need to make one last ditch effort to offer scheduling a call quickly. Perhaps also immediately offer an immediate, very brief quote to provide some value.",
+    "dominant_emotion": "Neutral",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: Time Constraint",
+    "call_count": 11,
+    "lead_rate": 0.0,
+    "avg_turns": 11.2,
+    "avg_call_score": 0.286,
+    "avg_duration_s": 67,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 6,
+      "CALL_LATER": 5
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 11
+    },
+    "sample_texts": [
+      "जी.",
+      "Hello.",
+      "हां जी.",
+      "नहीं madam जी, संतोष जी अभी hospital में है."
+    ]
+  },
+  {
+    "cluster_id": 120,
+    "label": "High-Value Lead - Family Details Shared",
+    "description": "Customer shows strong interest and provides detailed family information. A callback is scheduled with a specialized 'expert' agent to further discuss specific needs and options. High likelihood of a positive outcome.",
+    "keywords": [
+      "High-Value Lead",
+      "Family Details",
+      "Expert Callback",
+      "Strong Interest",
+      "Detailed Information",
+      "Potential Sale"
+    ],
+    "typical_disposition": "Callback",
+    "typical_sub_disposition": "Scheduled Callback",
+    "typical_outcome_reason": "High Interest",
+    "improvement_opportunity": "Ensure detailed comparative quotes are prepared for the callback agent, highlighting the best options based on the customer's family details. Brief the expert agent thoroughly on the customer's needs and preferences.",
+    "dominant_emotion": "Interested",
+    "sample_profile_match": "Engagement: VERY_HIGH, Arc Pattern: Rising, Objection: None",
+    "call_count": 10,
+    "lead_rate": 1.0,
+    "avg_turns": 43.5,
+    "avg_call_score": 0.75,
+    "avg_duration_s": 280,
+    "disposition_distribution": {
+      "CONNECTED_ENGAGED": 10
+    },
+    "outcome_distribution": {
+      "QUALIFIED_LEAD": 10
+    },
+    "sample_texts": [
+      "जी.",
+      "जी.",
+      "Hello.",
+      "हां जी भाई नहीं बोल रहा हूं."
+    ]
+  },
+  {
+    "cluster_id": 106,
+    "label": "Initial Interest - Abrupt Rejection",
+    "description": "The customer initially shows some interest, such as answering a few questions, but then abruptly rejects the offer without a clear explanation. This may happen after policy disclaimers. The call ends without a sale.",
+    "keywords": [
+      "Initial Interest",
+      "Sudden Rejection",
+      "Abrupt Decline",
+      "Lost Opportunity",
+      "Quick Turnaround",
+      "Disclaimer Rejection"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Not Interested",
+    "typical_outcome_reason": "Sudden Loss of Interest",
+    "improvement_opportunity": "Analyze call recordings to identify common triggers for the abrupt rejection (e.g., specific words, disclaimers). Train agents to proactively address these concerns. Simplify disclaimers or present them positively.",
+    "dominant_emotion": "Uncertain",
+    "sample_profile_match": "Engagement: MEDIUM, Arc Pattern: Rise and Fall, Objection: Not Interested",
+    "call_count": 9,
+    "lead_rate": 0.0,
+    "avg_turns": 10.3,
+    "avg_call_score": 0.353,
+    "avg_duration_s": 68,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 6,
+      "CONNECTED_ENGAGED": 2,
+      "CALL_LATER": 1
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 6,
+      "UNCERTAIN": 3
+    },
+    "sample_texts": [
+      "Hello.",
+      "जी.",
+      "जी."
+    ]
+  },
+  {
+    "cluster_id": 114,
+    "label": "Frustrated - DNC Request",
+    "description": "Customer expresses frustration, possibly due to frequent calls or a negative past experience, and demands to be put on the Do-Not-Call list. This results in a negative interaction.",
+    "keywords": [
+      "Frustration",
+      "Do Not Call",
+      "DNC Request",
+      "Angry Customer",
+      "Negative Experience",
+      "Unwanted Calls"
+    ],
+    "typical_disposition": "Do Not Call",
+    "typical_sub_disposition": "Requested DNC",
+    "typical_outcome_reason": "Customer Frustration",
+    "improvement_opportunity": "Immediately honor the DNC request. Improve call list management practices to reduce call frequency and avoid contacting individuals with a history of negative interactions.",
+    "dominant_emotion": "Frustrated",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: Not Interested",
+    "call_count": 7,
+    "lead_rate": 0.0,
+    "avg_turns": 12.4,
+    "avg_call_score": 0.175,
+    "avg_duration_s": 71,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 7
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 7
+    },
+    "sample_texts": [
+      "जी.",
+      "हां.",
+      "Ok?"
+    ]
+  },
+  {
+    "cluster_id": 118,
+    "label": "Already Insured - Persuasion Possible",
+    "description": "Customer states they are insured. Agent attempts to explore alternate coverage or 'porting' opportunities. This typically results in the agent providing custom comparisons of current coverage versus new coverage.",
+    "keywords": [
+      "Already Insured",
+      "Porting Opportunities",
+      "Coverage Comparison",
+      "Upsell",
+      "Existing Coverage",
+      "Alternative Options"
+    ],
+    "typical_disposition": "Follow-up",
+    "typical_sub_disposition": "Under Review",
+    "typical_outcome_reason": "Alternate solutions provided",
+    "improvement_opportunity": "Train agents on how to ask further qualifying questions about existing health plan coverage and then focus on the gaps to create tailored upgrade or 'porting' offers. ",
+    "dominant_emotion": "Interested",
+    "sample_profile_match": "Engagement: MEDIUM, Arc Pattern: Flat, Objection: Already Insured",
+    "call_count": 6,
+    "lead_rate": 0.5,
+    "avg_turns": 12.2,
+    "avg_call_score": 0.525,
+    "avg_duration_s": 81,
+    "disposition_distribution": {
+      "CONNECTED_ENGAGED": 3,
+      "NOT_INTERESTED": 2,
+      "CALL_LATER": 1
+    },
+    "outcome_distribution": {
+      "QUALIFIED_LEAD": 3,
+      "UNCERTAIN": 1,
+      "NOT_QUALIFIED": 2
+    },
+    "sample_texts": [
+      "हां.",
+      "Hello.",
+      "Yes.",
+      "Yes."
+    ]
+  },
+  {
+    "cluster_id": 121,
+    "label": "Wrong Number / Not Available",
+    "description": "The agent reaches someone other than the intended recipient or finds the recipient unavailable and unable to proceed. A message is usually requested, or the call terminates abruptly.",
+    "keywords": [
+      "Wrong Number",
+      "Unavailable",
+      "Not Intended Recipient",
+      "Message Requested",
+      "Incorrect Contact",
+      "Misdial"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Wrong Number",
+    "typical_outcome_reason": "Incorrect Contact",
+    "improvement_opportunity": "Improve data validation and lead qualification processes to minimize instances of reaching the wrong person. Verify contact information before initiating the call.",
+    "dominant_emotion": "Neutral",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: None",
+    "call_count": 6,
+    "lead_rate": 0.0,
+    "avg_turns": 7.8,
+    "avg_call_score": 0.371,
+    "avg_duration_s": 35,
+    "disposition_distribution": {
+      "CALL_LATER": 5,
+      "NOT_INTERESTED": 1
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 6
+    },
+    "sample_texts": [
+      "Hello.",
+      "नहीं अभी वह घर पर नहीं है बाहर गए थे.",
+      "This call is now being recorded.",
+      "Hi.",
+      "You record your name and reason for calling, I'll "
+    ]
+  },
+  {
+    "cluster_id": 117,
+    "label": "Initial Interest Fading - Rejection",
+    "description": "The customer shows initial interest, but it quickly fades, leading to a rejection of the offer. This may be due to confusion or lack of perceived value after some conversation. Interest is lost quickly.",
+    "keywords": [
+      "Fading Interest",
+      "Initial Interest",
+      "Rejection",
+      "Value Loss",
+      "Confusion",
+      "Quick Decline"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Not Interested",
+    "typical_outcome_reason": "Loss of Interest",
+    "improvement_opportunity": "Improve the clarity and conciseness of the value proposition. Focus on key benefits and address potential concerns proactively. Shorten the pitch and tailor it to their needs.",
+    "dominant_emotion": "Neutral",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Rise then Fall, Objection: Not Interested",
+    "call_count": 5,
+    "lead_rate": 0.0,
+    "avg_turns": 7.6,
+    "avg_call_score": 0.225,
+    "avg_duration_s": 52,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 5
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 5
+    },
+    "sample_texts": [
+      "Hello?",
+      "Hello.",
+      "जी.",
+      "हां जी साजन कुमार."
+    ]
+  },
+  {
+    "cluster_id": 101,
+    "label": "Polite But Firm Rejection",
+    "description": "Customer politely declines the offer using phrases such as 'no, thank you.' The rejection is firm but respectful, and the conversation is very short. The customer demonstrates no intention to engage further.",
+    "keywords": [
+      "Polite Rejection",
+      "No Thank You",
+      "Firm Decline",
+      "Respectful Rejection",
+      "Quick End",
+      "Uninterested"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Not Interested",
+    "typical_outcome_reason": "Lack of Interest",
+    "improvement_opportunity": "Acknowledge their politeness and end the call gracefully. Do not try to overcome objection, as they are firmly set. Consider a follow-up email or message, but do not call back.",
+    "dominant_emotion": "Neutral",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: Not Interested",
+    "call_count": 4,
+    "lead_rate": 0.0,
+    "avg_turns": 6.8,
+    "avg_call_score": 0.2,
+    "avg_duration_s": 41,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 4
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 4
+    },
+    "sample_texts": [
+      "Hello.",
+      "Yes.",
+      "हां जी.",
+      "जी बात कर रहे हैं बोलिए."
+    ]
+  },
+  {
+    "cluster_id": 115,
+    "label": "Confusion - Unclear Value",
+    "description": "The customer expresses confusion or doesn't fully grasp the offer's value, leading to an uncertain or negative outcome. The call ends without a clear commitment or rejection, simply confusion.",
+    "keywords": [
+      "Confusion",
+      "Unclear Offer",
+      "Lack of Understanding",
+      "Uncertain Outcome",
+      "Lost in Translation",
+      "Vague Offer"
+    ],
+    "typical_disposition": "Follow-up",
+    "typical_sub_disposition": "Unresolved",
+    "typical_outcome_reason": "Lack of Understanding",
+    "improvement_opportunity": "Simplify the language and present the benefits more clearly. Use relatable examples. Ensure agents pause and ask for confirmation of understanding regularly.",
+    "dominant_emotion": "Confused",
+    "sample_profile_match": "Engagement: MEDIUM, Arc Pattern: Unclear, Objection: None",
+    "call_count": 4,
+    "lead_rate": 0.0,
+    "avg_turns": 12.5,
+    "avg_call_score": 0.444,
+    "avg_duration_s": 64,
+    "disposition_distribution": {
+      "CONNECTED_ENGAGED": 2,
+      "NOT_INTERESTED": 2
+    },
+    "outcome_distribution": {
+      "UNCERTAIN": 2,
+      "NOT_QUALIFIED": 2
+    },
+    "sample_texts": [
+      "हां हां ma'am बोलिए. नमस्कार.",
+      "Hello?",
+      "Hello.",
+      "हां बोलिए. Hello?"
+    ]
+  },
+  {
+    "cluster_id": 116,
+    "label": "Uncertain Availability - Short Call",
+    "description": "A very short call where the customer indicates they might check their availability or consider the offer later, resulting in an uncertain outcome. They don't commit to a follow-up or callback.",
+    "keywords": [
+      "Uncertain",
+      "Availability",
+      "Check Later",
+      "Short Call",
+      "Unresolved",
+      "Follow-up Needed"
+    ],
+    "typical_disposition": "Follow-up",
+    "typical_sub_disposition": "Unresolved",
+    "typical_outcome_reason": "Uncertain Availability",
+    "improvement_opportunity": "Immediately offer to help check availability or schedule a quick follow-up at a specific time. Send a brief reminder email or text message summarizing the key benefits.",
+    "dominant_emotion": "Neutral",
+    "sample_profile_match": "Engagement: UNCERTAIN, Arc Pattern: Flat, Objection: None",
+    "call_count": 4,
+    "lead_rate": 0.0,
+    "avg_turns": 9.2,
+    "avg_call_score": 0.35,
+    "avg_duration_s": 61,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 2,
+      "CALL_LATER": 2
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 2,
+      "UNCERTAIN": 2
+    },
+    "sample_texts": [
+      "नहीं ma'am.",
+      "If you record your name and reason for I'll see if",
+      "Hi if you record your for calling I'll see if this"
+    ]
+  },
+  {
+    "cluster_id": 103,
+    "label": "Price Sensitivity - Immediate Rejection",
+    "description": "Customer immediately rejects the offer, citing high price as the main reason. There is little or no attempt to understand their budget or needs. The call terminates very quickly.",
+    "keywords": [
+      "Price Concern",
+      "Too Expensive",
+      "Immediate Rejection",
+      "Affordability",
+      "Budget",
+      "Quick Decline"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Price Concern",
+    "typical_outcome_reason": "Perceived High Cost",
+    "improvement_opportunity": "Equip agents with flexible payment options and tiered-down coverage options that they can quickly present. Train agents to ask qualifying questions regarding budget constraints early in the call.",
+    "dominant_emotion": "Concerned",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: Price Concern",
+    "call_count": 3,
+    "lead_rate": 0.0,
+    "avg_turns": 15.3,
+    "avg_call_score": 0.192,
+    "avg_duration_s": 92,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 3
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 3
+    },
+    "sample_texts": [
+      "आप कौन बोल रहे हो?",
+      "जी.",
+      "Hello."
+    ]
+  },
+  {
+    "cluster_id": 111,
+    "label": "Language Barrier - Communication Failure",
+    "description": "A significant language barrier prevents effective communication, leading to customer frustration, misunderstanding and rejection of the offer. The customer may be confused or unable to understand the agent.",
+    "keywords": [
+      "Language Barrier",
+      "Communication Difficulty",
+      "Misunderstanding",
+      "Rejection",
+      "Confusion",
+      "Non-English Speaking"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Language Barrier",
+    "typical_outcome_reason": "Communication Difficulty",
+    "improvement_opportunity": "Employ multilingual agents or implement real-time translation tools. Collect language preference data and route calls accordingly.",
+    "dominant_emotion": "Frustrated",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: Language Barrier",
+    "call_count": 3,
+    "lead_rate": 0.0,
+    "avg_turns": 18.3,
+    "avg_call_score": 0.175,
+    "avg_duration_s": 124,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 3
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 3
+    },
+    "sample_texts": [
+      "Hello.",
+      "हां.",
+      "Hello?",
+      "हां बोलिए."
+    ]
+  },
+  {
+    "cluster_id": 119,
+    "label": "WhatsApp Information Request - Lead",
+    "description": "The customer expresses initial interest but requests information to be sent over WhatsApp or text message due to time constraints. There is no guaranteed follow-up by an agent, but potential exists.",
+    "keywords": [
+      "WhatsApp",
+      "Text Message",
+      "Information Request",
+      "Time Constraint",
+      "Follow-up Needed",
+      "Digital Communication"
+    ],
+    "typical_disposition": "Follow-up",
+    "typical_sub_disposition": "Information Sent",
+    "typical_outcome_reason": "Customer Preference",
+    "improvement_opportunity": "Establish clear protocols for handling WhatsApp/text follow-ups. Provide agents with templates and guidelines for effective digital communication to convert leads. Set expectations with the customer about follow-up steps.",
+    "dominant_emotion": "Interested",
+    "sample_profile_match": "Engagement: MEDIUM, Arc Pattern: Rising, Objection: Time Constraint",
+    "call_count": 2,
+    "lead_rate": 0.5,
+    "avg_turns": 15.5,
+    "avg_call_score": 0.487,
+    "avg_duration_s": 100,
+    "disposition_distribution": {
+      "CALL_LATER": 2
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 1,
+      "QUALIFIED_LEAD": 1
+    },
+    "sample_texts": [
+      "Hello.",
+      "हां.",
+      "Currently away from calls, WhatsApp is preferred."
+    ]
+  },
+  {
+    "cluster_id": 110,
+    "label": "Spouse/Third Party Rejection",
+    "description": "The agent speaks with a third party (e.g., spouse) who expresses no interest on behalf of the intended customer. The decision-maker is unavailable, and the call ends with a rejection from the third party.",
+    "keywords": [
+      "Third Party",
+      "Spouse Rejection",
+      "No Interest",
+      "Decision-Maker Unavailable",
+      "Rejection by Proxy",
+      "Uninterested"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Not Interested",
+    "typical_outcome_reason": "Lack of Decision-Maker",
+    "improvement_opportunity": "Improve pre-call data to identify the correct contact person. Train agents to politely request a callback when the intended customer is available or suggest alternative contact methods.",
+    "dominant_emotion": "Neutral",
+    "sample_profile_match": "Engagement: LOW, Arc Pattern: Flat, Objection: Not Interested",
+    "call_count": 1,
+    "lead_rate": 0.0,
+    "avg_turns": 11.0,
+    "avg_call_score": 0.225,
+    "avg_duration_s": 66,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 1
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 1
+    },
+    "sample_texts": [
+      "नहीं मैं उसका मैं उसका wife हूं."
+    ]
+  },
+  {
+    "cluster_id": 113,
+    "label": "Price Sensitive - Discount Focus Only",
+    "description": "Customer shows interest only in discounts and free services. They reject the paid plan but may express interest in free alternatives or services. Price is the primary deciding factor.",
+    "keywords": [
+      "Price Sensitive",
+      "Discount Focused",
+      "Free Service Only",
+      "No Paid Plan",
+      "Budget Conscious",
+      "Bargain Hunter"
+    ],
+    "typical_disposition": "Not Qualified",
+    "typical_sub_disposition": "Price Concern",
+    "typical_outcome_reason": "High Price",
+    "improvement_opportunity": "Highlight the value and long-term benefits of the paid plan versus the limited benefits of the free service. Consider a payment plan or lower coverage option that meets their budget.",
+    "dominant_emotion": "Concerned",
+    "sample_profile_match": "Engagement: MEDIUM, Arc Pattern: Flat, Objection: Price Concern",
+    "call_count": 1,
+    "lead_rate": 0.0,
+    "avg_turns": 17.0,
+    "avg_call_score": 0.175,
+    "avg_duration_s": 73,
+    "disposition_distribution": {
+      "NOT_INTERESTED": 1
+    },
+    "outcome_distribution": {
+      "NOT_QUALIFIED": 1
+    },
+    "sample_texts": [
+      "बोलो."
+    ]
+  }
+]
